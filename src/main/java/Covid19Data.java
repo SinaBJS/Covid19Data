@@ -27,4 +27,12 @@ public class Covid19Data {
 
 
     }
+
+    public String getRegion() {
+        return Region;
+    }
+
+    public String getAldersgruppe() {
+        return aldersgruppe;
+    }
 }

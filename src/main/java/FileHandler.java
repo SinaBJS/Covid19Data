@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class FileHandler {
     private final File f = new File("Covid19Data.csv");
 
+
     public ArrayList<Covid19Data> restoreData() throws IOException {
         ArrayList<Covid19Data> covidData = new ArrayList<>();
         Scanner sc = new Scanner(f, StandardCharsets.ISO_8859_1);
